@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    background-color: black;
+}
+nav img{
+    height: 60px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+nav ul li a{
+    margin-right: 30px;
+    color: white;
+    text-decoration: none;
+}  
+.mahdy{
+    padding: 10px;
+    text-align: center;
+    color: white;
+} 
+.s{
+    background-image: url(../web6/2000_5b321d9f18c06.webp);
+    background-position: center;        
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 80vh;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.s h1{
+    font-size: 80px;
+    color: white;
+    padding: 20px;
+}
+.s p{
+    font-size: 35px;
+    color: white;
+    padding-top: 10px;
+}
+.s hr{
+    width: 310px;
+    height: 3px;
+    background-color: #fff;
+    color: white;
+}
+.s .hr1{
+    width: 300px;
+    height: 3px;
+    background-color: #fff;
+    color: white;
+}
+.s2{
+    margin-top: 100px;
+}
+.s2 h1{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 100;
+}
+.s2 .hr2{
+    width: 50px;
+    height: 4px;
+    background-color: #CCAE79;
+    color: #CCAE79;
+    margin-top: 20px;
+    margin-left: 48%;
+    margin-bottom: 30px;
+}
+.s2 .div2{
+    display: flex;
+    justify-content: space-around;
+}
+.s2 .div2 .div3{
+    width: 44%;
+    font-size: 20px;
+}
+.img2{
+    border-radius: 5px;
+    margin-right: 100px;
+    height: 250px;
+}
+.mahdy2{
+    color: #CCAE79;
+    padding-top: 50px;
+}
+.s3{
+    margin-top: 200px;
+}
+.s3 h1{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 100;
+}
+.s3 .hr3{
+    width: 50px;
+    height: 5px;
+    background-color: #CCAE79;
+    color: #CCAE79;
+    margin-top: 20px;
+    margin-left: 48%;
+    margin-bottom: 30px;
+}
+.s3 .div4{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    text-align: center;
+}
+.s3 .div4 a{
+    text-align: center;
+    color: #CCAE79;
+    text-decoration: none;
+}
+.div5{
+    width: 25%;
+    
+}
+
+.mahdy2{
+    margin-right: 30px;
+}
+.s4{
+    margin-top: 200px;
+}
+.s4 p{
+    text-align: center;
+    font-size: 40px ;
+    padding: 20px 0;
+}
+.s4 hr{
+    width:50px;
+    margin-left:640px;
+    height: 2px;
+    background-color:  #CCAE79;
+    color: #CCAE79;
+    margin-top: 50px;
+    background-attachment: fixed;
+}
+.s4 .div6{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    margin: 50px 100px;
+}
+.s4 .div6 img{
+    width: 100%;
+    height: 200px;
+}
+.about2 .in1{
+    padding: 5px;
+}
+.about2 h2{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 100;
+    margin-top: 100px;
+}
+.about2 hr{
+    width: 50px;
+    margin-left: 48%;
+    height: 4px;
+    background-color: #CCAE79;
+    color: #CCAE79;
+    margin-top: 15px;
+}
+.about2 form input{
+    font-size: 130%;
+    text-align: left;
+}
+.in2{
+    padding: 5px;
+    margin-left: 20px;
+}
+.in3{
+    padding: 5px;
+    margin-top: 15px;
+    padding-right: 296px;
+}
+.in4{
+    padding: 5px;
+    padding-right: 295px;
+    margin-top: 15px;
+    padding-bottom: 60px;
+}
+.about2 form button{
+    padding-right: 470px;
+    margin-top: 20px; 
+    padding: 10px 226px;
+    background-color: #CCAE79;
+    color: white;
+    border: #CCAE79;
+    font-size: 22px;
+    cursor: pointer;
+}
+.about2 .d2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    text-align: center;
+}
+.about2 .d2 .p9{
+    font-size: 20px;
+}
+.about2 .d2 .p10{
+    font-size: 20px;
+    color: #CCAE79;
+}
+.about2 .d2 .p11{
+    font-size: 20px;
+    color: #CCAE79;
+}
+.about2 .d2 .p12{
+    font-size: 20px;
+    color: #CCAE79;
+}
+.about2 .d2 .p10 a{
+    color: #CCAE79;
+}
+.about2 .d2 .p12 a{
+    color: #CCAE79;
+}
+.about2 .d2 .p13 a{
+    color: black;
+}
+iframe{
+    margin-top: 50px;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0;
+}
+footer h1{
+    padding-bottom: 5px;
+}
+footer ul{
+    display: flex;
+}
+footer ul li{
+    margin-right: 30px;
+    list-style: none;
+}
+
+.icon{
+    margin-left: 90%;
+    color: #CCAE79
+}
